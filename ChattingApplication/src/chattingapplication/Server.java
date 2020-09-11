@@ -36,14 +36,14 @@ public class Server extends JFrame implements ActionListener{
        });
        
        
-       ImageIcon i4= new ImageIcon(ClassLoader.getSystemResource("chattingapplication/icons/7.png"));
+       ImageIcon i4= new ImageIcon(ClassLoader.getSystemResource("chattingapplication/icons/8.jpg"));
        Image i5=i4.getImage().getScaledInstance(60,60, Image.SCALE_DEFAULT);
        ImageIcon i6=new ImageIcon(i5);
        JLabel l2=new JLabel(i6);
        l2.setBounds(40,5, 60,60);
        jp.add(l2);
        
-       JLabel l6=new JLabel("Parth");
+       JLabel l6=new JLabel("User");
        l6.setFont(new Font("SAN_SERIF",Font.BOLD,20));
        l6.setForeground(Color.WHITE);
        l6.setBounds(110,15, 100, 18);
